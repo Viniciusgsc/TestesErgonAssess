@@ -8,7 +8,7 @@ import "./home.css";
 export default function Home() {
   useEffect(() => {
     api
-      .get("/question")
+      .get("/user")
       .then((response) => {
         console.log(response.data);
       })
