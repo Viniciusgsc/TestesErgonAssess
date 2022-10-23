@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../img/logoo.svg"
-import Icone from "../../img/icone.svg"
+import Icone from "../../img/user.png"
 import "./header.css";
 
 //Header da aplicaçãõ
@@ -19,13 +19,13 @@ export default function Header() {
               <Link className="link" to="/">HOME</Link>
             </li>
             <li>
-              <Link className="link" to="/Questoes">SOBRE</Link>
+              <Link className="link" to="/Sobre">SOBRE</Link>
             </li>
             <li>
-              <Link className="link" to="/Sobre">AVALIAR</Link>
+              <Link className="link" to="/Avaliar">AVALIAR</Link>
             </li>
             <li>
-              <Link className="link" to="/Sobre">GLOSSARIO</Link>
+              <Link className="link" to="/Glossario">GLOSSARIO</Link>
             </li>
             <img className="icone" src={Icone}/>
           </ul>
