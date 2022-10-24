@@ -53,6 +53,9 @@
 }
 
 .icone {
-   
-    width: 20px;
+    position: absolute;
+    width: 50.2px;
+    height: 52px;
+    left: 1290px;
+    top: 12px;
 }
