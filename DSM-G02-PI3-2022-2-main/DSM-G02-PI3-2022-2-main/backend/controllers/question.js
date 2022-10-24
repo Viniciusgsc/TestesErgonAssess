@@ -24,6 +24,7 @@ controller.create = async (req, res) => {
     }
 }
 
+
 controller.retrieveAll = async (req, res) => {
     try {
         // find() sem parametros retorna todos os documentos

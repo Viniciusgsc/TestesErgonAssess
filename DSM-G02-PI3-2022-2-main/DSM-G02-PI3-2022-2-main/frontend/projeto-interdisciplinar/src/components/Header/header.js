@@ -12,6 +12,7 @@ export default function Header() {
         <nav>
           <ul className="list">
             <img className="logo" src={Logo}/>
+           
            <li>
               <Link className="l1" to="/">ErgoAssess</Link>
             </li>
@@ -30,6 +31,7 @@ export default function Header() {
             <img className="icone" src={Icone}/>
           </ul>
         </nav>
+        
       </div>
     
   );
