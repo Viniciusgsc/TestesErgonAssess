@@ -8,7 +8,7 @@ import "./home.css";
 export default function Home() {
   useEffect(() => {
     api
-      .get("/user")
+      .get("/question")
       .then((response) => {
         console.log(response.data);
       })
@@ -28,17 +28,17 @@ export default function Home() {
         <h1>Atividades</h1>
       </div>
       <div className="a1">
-          <h2 className="t1">Avaliações Realizadas</h2>
-        </div>
-        <div className="a2">
-          <h2 className="t1">Avaliações Concluidas</h2>
-        </div>
-        <div className="a3">
-          <h2 className="t2">Avaliações em andamento</h2>
-        </div>
-        <div className="a4">
-          <h2 className="t2">Participações no forum</h2>
-        </div>
+        <h2 className="t1">Avaliações Realizadas</h2>
+      </div>
+      <div className="a2">
+        <h2 className="t1">Avaliações Concluidas</h2>
+      </div>
+      <div className="a3">
+        <h2 className="t2">Avaliações em andamento</h2>
+      </div>
+      <div className="a4">
+        <h2 className="t2">Participações no forum</h2>
+      </div>
     </div>
 
 

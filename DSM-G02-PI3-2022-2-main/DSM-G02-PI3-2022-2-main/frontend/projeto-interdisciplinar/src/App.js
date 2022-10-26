@@ -5,6 +5,7 @@ import Home from './pages/Home/Home'
 import Sobre from './pages/Sobre/Sobre'
 import Avaliar from './pages/Avaliar/Avaliar'
 import Glossario from './pages/Glossario/Glossario'
+import Login from './pages/Login/login'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Sobre" element={<Sobre />} />
         <Route path="/Avaliar" element={<Avaliar />} />
         <Route path="/Glossario" element={<Glossario />} />
+        <Route path="/Login" element={<Login />} />
       </Routes>
    </Router>
   );
