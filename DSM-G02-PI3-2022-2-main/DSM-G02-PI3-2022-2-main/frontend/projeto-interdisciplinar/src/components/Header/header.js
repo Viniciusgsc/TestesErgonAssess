@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../img/logoo.svg"
+import Logo from "../../img/logoergon.png"
 import Icone from "../../img/user.png"
 import "./header.css";
 
@@ -27,6 +27,9 @@ export default function Header() {
             </li>
             <li>
               <Link className="link" to="/Glossario">GLOSSARIO</Link>
+            </li>
+            <li>
+              <Link className="link" to="/login">LOGIN</Link>
             </li>
             <img className="icone" src={Icone}/>
           </ul>

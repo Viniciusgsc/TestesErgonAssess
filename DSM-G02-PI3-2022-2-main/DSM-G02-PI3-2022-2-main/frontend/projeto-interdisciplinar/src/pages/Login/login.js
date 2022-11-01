@@ -1,7 +1,6 @@
 import React from "react";
-import { useEffect } from "react";
-import api from "../../services/api";
 import Header from "../../components/Header/header";
+
 import "./login.css";
 
 //Pagina Home da Aplicação
@@ -25,7 +24,7 @@ export default function Login() {
             <input type="password" name="" required=""></input>
             <label>Password</label>
           </div>
-          <a href="#">Submit</a>
+          <a href="http://localhost:3000">Submit</a>
         </form>
       </div>
     </div>
