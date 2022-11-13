@@ -6,7 +6,7 @@ import Sobre from './pages/Sobre/Sobre'
 import Avaliar from './pages/Avaliar/Avaliar'
 import Glossario from './pages/Glossario/Glossario'
 import Login from './pages/Login/login'
-
+//teste
 
 function App() {
   return (
