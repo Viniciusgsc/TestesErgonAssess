@@ -13,11 +13,11 @@ function App() {
    //ROTAS DA APLICAÇÃO
    <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
         <Route path="/Sobre" element={<Sobre />} />
         <Route path="/Avaliar" element={<Avaliar />} />
         <Route path="/Glossario" element={<Glossario />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path="/Home" element={<Home />} />
       </Routes>
    </Router>
   );
